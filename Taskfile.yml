@@ -38,3 +38,5 @@ tasks:
           REPO_NAME: external-dns
           REPO_URL: https://kubernetes-sigs.github.io/external-dns/
           CHART_NAME: external-dns
+      - >-
+        echo "sulfoxide-bromine: $(skopeo list-tags docker://ghcr.io/atomicloud/sulfoxide.bromine/sulfoxide-bromine | jq -r '.Tags[]' | sort -V | tail -n 1)"
