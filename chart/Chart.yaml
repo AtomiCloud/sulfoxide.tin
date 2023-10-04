@@ -1,0 +1,10 @@
+apiVersion: v2
+name: sulfoxide-tin
+description: Helm chart to deploy External DNS to configure DNS records to DNS providers
+type: application
+version: 1.0.0
+appVersion: "1.13.1"
+dependencies:
+  - name: external-dns
+    repository: https://kubernetes-sigs.github.io/external-dns/
+    version: 1.13.1
