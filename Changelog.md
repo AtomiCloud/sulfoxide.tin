@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.1...v1.1.2) (2023-10-04)
+
+
+### 🐛 Bug Fixes
+
+* helm update ([1da16df](https://github.com/AtomiCloud/sulfoxide.tin/commit/1da16df72b5991c990803d52932428ce29aabd4a))
+* missing bromine ([466265e](https://github.com/AtomiCloud/sulfoxide.tin/commit/466265ec1fc38f8430585a66576b56a9ba35be89))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.0...v1.1.1) (2023-10-04)
 
 
