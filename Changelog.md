@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.0.0...v1.1.0) (2023-10-04)
+
+
+### 🚀 New Features
+
+* namespace secret-store ([08c5194](https://github.com/AtomiCloud/sulfoxide.tin/commit/08c5194a6e0d84d971eaa4d07facb5b2153e8f8e))
+
 ## 1.0.0 (2023-10-04)
 
 
