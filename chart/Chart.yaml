@@ -2,7 +2,7 @@ apiVersion: v2
 name: sulfoxide-tin
 description: Helm chart to deploy External DNS to configure DNS records to DNS providers
 type: application
-version: 1.1.0
+version: 1.1.1
 appVersion: "1.13.1"
 dependencies:
   - name: external-dns

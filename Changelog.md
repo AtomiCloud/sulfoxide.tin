@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.0...v1.1.1) (2023-10-04)
+
+
+### 🐛 Bug Fixes
+
+* remove hooks ([f4ed1e5](https://github.com/AtomiCloud/sulfoxide.tin/commit/f4ed1e5137f6d9582edc7d6d75586e87e86385e9))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.0.0...v1.1.0) (2023-10-04)
 
 
