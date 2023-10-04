@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.3...v1.1.4) (2023-10-04)
+
+
+### 🐛 Bug Fixes
+
+* remove service from sources ([136e273](https://github.com/AtomiCloud/sulfoxide.tin/commit/136e273d96346e874a2c79e79a718afe0b6fcf3f))
+
 ## [1.1.3](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.2...v1.1.3) (2023-10-04)
 
 
