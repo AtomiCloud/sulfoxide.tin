@@ -82,6 +82,7 @@ token:
 
 # -- ExternalDNS configuration. See [ExternalDNS Helm Chart](https://github.com/kubernetes-sigs/external-dns/tree/master/charts/external-dns)
 external-dns:
+
   interval: 1m
   podSecurityContext:
     <<: *podSecurityContext
@@ -101,7 +102,6 @@ external-dns:
     create: true
   logFormat: json
   sources:
-    - ingress
     - service
   resources:
     limits:
