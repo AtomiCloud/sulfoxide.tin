@@ -102,7 +102,7 @@ external-dns:
   logFormat: json
   sources:
     - ingress
-    - services
+    - service
   resources:
     limits:
       cpu: 1
