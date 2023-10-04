@@ -111,6 +111,7 @@ external-dns:
       cpu: 250m
       memory: 256Mi
   provider: cloudflare
+  policy: sync
   env:
     - name: CF_API_TOKEN
       valueFrom:
