@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.4...v1.1.5) (2023-10-07)
+
+
+### 🐛 Bug Fixes
+
+* incorrect value file ([4e9a829](https://github.com/AtomiCloud/sulfoxide.tin/commit/4e9a8293f1992038bb909cc04eac1dc50545847c))
+
 ## [1.1.4](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.3...v1.1.4) (2023-10-04)
 
 
