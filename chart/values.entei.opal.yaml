@@ -6,20 +6,39 @@ tags: &tags
   atomi.cloud/landscape: *landscape
   atomi.cloud/cluster: *cluster
 
-traefik:
+token:
+  secretName: &secretName cloudflare-external-dns-token
+  internal:
+    enable: false
+  external:
+    enable: true
+    refreshInterval: 1h
+    remoteSecretName: MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN
+
+external-dns:
+  interval: 1m
+  podLabels:
+    <<: *tags
+  podAnnotations:
+    <<: *tags
   commonLabels:
     <<: *tags
-  deployment:
-    annotations:
-      <<: *tags
-    podAnnotations:
-      <<: *tags
-    labels:
-      <<: *tags
-    podLabels:
-      <<: *tags
-    replicas: 1
-  autoscaling:
-    enabled: true
-    minReplicas: 1
-    maxReplicas: 10
+  deploymentAnnotations:
+    <<: *tags
+  resources:
+    limits:
+      cpu: 1
+      memory: 1Gi
+    requests:
+      cpu: 250m
+      memory: 256Mi
+  provider: cloudflare
+  env:
+    - name: CF_API_TOKEN
+      valueFrom:
+        secretKeyRef:
+          name: *secretName
+          key: CLOUDFLARE_TOKEN
+
+
+

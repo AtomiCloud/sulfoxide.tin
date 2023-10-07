@@ -1,19 +1,20 @@
 serviceTree:
-  landscape: &landscape sulfoxide
-  cluster: &cluster "1"
+  landscape: &landscape lapras
+  cluster: &cluster opal
 
 tags: &tags
   atomi.cloud/landscape: *landscape
   atomi.cloud/cluster: *cluster
+
 token:
   secretName: &secretName cloudflare-external-dns-token
   internal:
     enable: false
-    token: ""
   external:
     enable: true
     refreshInterval: 1h
     remoteSecretName: MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN
+
 external-dns:
   interval: 1m
   podLabels:
