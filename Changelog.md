@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.5...v1.1.6) (2023-10-12)
+
+
+### 🐛 Bug Fixes
+
+* missing module ([0911894](https://github.com/AtomiCloud/sulfoxide.tin/commit/091189484c443bf990937e98dfc3f9cb97110f9b))
+
 ## [1.1.5](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.4...v1.1.5) (2023-10-07)
 
 
