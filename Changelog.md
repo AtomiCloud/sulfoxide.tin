@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.6...v1.2.0) (2023-10-20)
+
+
+### 📦 Upstreams Changes
+
+* bromine with annotations ([5679827](https://github.com/AtomiCloud/sulfoxide.tin/commit/5679827698dfb17336f6a4d5026b4dae812fc890))
+
+
+### 🐛 Bug Fixes
+
+* missing update ([45d9554](https://github.com/AtomiCloud/sulfoxide.tin/commit/45d955471153fd371f62445c7b18310292ddd6bb))
+
 ## [1.1.6](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.1.5...v1.1.6) (2023-10-12)
 
 
