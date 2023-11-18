@@ -19,7 +19,7 @@ Helm chart to deploy External DNS to configure DNS records to DNS providers
 | podSecurityContext | object | `{"fsGroup":1000,"runAsGroup":1000,"runAsNonRoot":true,"runAsUser":1000}` | YAML Anchor for PodSecurityContext |
 | securityContext | object | `{"allowPrivilegeEscalation":false,"capabilities":{"drop":["ALL"]},"readOnlyRootFilesystem":true,"runAsGroup":3000,"runAsNonRoot":true,"runAsUser":1000}` | YAML Anchor for SecurityContext |
 | serviceTree | object | `{"layer":"1","module":"controller","platform":"sulfoxide","service":"tin"}` | AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb) |
-| sulfoxide-bromine | object | `{"annotations":{"argocd.argoproj.io/sync-wave":"-5"},"rootSecret":{"ref":"SULFOXIDE_TIN"},"storeName":"doppler-tin"}` | Create SecretStore via secret of secrets pattern |
+| sulfoxide-bromine | object | `{"annotations":{"helm.sh/hook":"pre-install,pre-upgrade","helm.sh/hook-weight":"-5"},"rootSecret":{"ref":"SULFOXIDE_TIN"},"storeName":"doppler-tin"}` | Create SecretStore via secret of secrets pattern |
 | sulfoxide-bromine.rootSecret | object | `{"ref":"SULFOXIDE_TIN"}` | Secret of Secrets reference |
 | sulfoxide-bromine.rootSecret.ref | string | `"SULFOXIDE_TIN"` | DOPPLER Token Reference |
 | sulfoxide-bromine.storeName | string | `"doppler-tin"` | Store name to create |

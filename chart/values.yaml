@@ -33,7 +33,8 @@ securityContext: &securityContext
 # -- Create SecretStore via secret of secrets pattern
 sulfoxide-bromine:
   annotations:
-    argocd.argoproj.io/sync-wave: "-5"
+    "helm.sh/hook": pre-install,pre-upgrade
+    "helm.sh/hook-weight": "-5"
   # -- Store name to create
   storeName: doppler-tin
   # -- Secret of Secrets reference
