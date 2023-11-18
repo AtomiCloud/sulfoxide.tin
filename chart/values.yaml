@@ -119,7 +119,7 @@ external-dns:
       cpu: 250m
       memory: 256Mi
   provider: cloudflare
-  policy: sync
+  policy: upsert-only
   env:
     - name: CF_API_TOKEN
       valueFrom:
