@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.0...v1.4.1) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* use sync-wave instead of helm-hooks ([07a5b58](https://github.com/AtomiCloud/sulfoxide.tin/commit/07a5b58c7f8b52644124428eee89ec740b53506c))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.3.0...v1.4.0) (2023-11-18)
 
 
