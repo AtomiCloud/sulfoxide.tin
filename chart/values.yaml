@@ -33,7 +33,7 @@ securityContext: &securityContext
 # -- Create SecretStore via secret of secrets pattern
 sulfoxide-bromine:
   annotations:
-    argocd.argoproj.io/sync-wave: "-1"
+    argocd.argoproj.io/sync-wave: "-3"
   # -- Store name to create
   storeName: doppler-tin
   # -- Secret of Secrets reference
@@ -41,9 +41,9 @@ sulfoxide-bromine:
     # -- DOPPLER Token Reference
     ref: "SULFOXIDE_TIN"
 
-
+# -- Secret Annotations (External Secrets) to control synchronization
 secretAnnotation:
-  argocd.argoproj.io/sync-wave: "1"
+  argocd.argoproj.io/sync-wave: "-2"
 
 # -- Cloudflare Tunnel Token
 token:
