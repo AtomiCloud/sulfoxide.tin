@@ -1,3 +1,10 @@
+## [1.4.3](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.2...v1.4.3) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* upsert only ([d567ff7](https://github.com/AtomiCloud/sulfoxide.tin/commit/d567ff7bd00d3bdfd9011133a3c026c05bfd80d1))
+
 ## [1.4.2](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.1...v1.4.2) (2023-11-18)
 
 
