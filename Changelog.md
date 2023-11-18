@@ -1,3 +1,11 @@
+## [1.4.2](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.1...v1.4.2) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* sync wave for secretstore externalsecret ([bd0402e](https://github.com/AtomiCloud/sulfoxide.tin/commit/bd0402e28714ab59859ceaece4004de51c52112e))
+* use sync wave instead of helm hooks ([fe9fbb3](https://github.com/AtomiCloud/sulfoxide.tin/commit/fe9fbb377014d0e0820611e197bbf5cd502f7a0e))
+
 ## [1.4.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.0...v1.4.1) (2023-11-18)
 
 
