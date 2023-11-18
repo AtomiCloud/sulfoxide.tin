@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.3.0...v1.4.0) (2023-11-18)
+
+
+### 🚀 New Features
+
+* ruby values ([4f5c6c5](https://github.com/AtomiCloud/sulfoxide.tin/commit/4f5c6c510b4b2346c23d5d4e91f78a9fa0ff4cb0))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.2.0...v1.3.0) (2023-10-20)
 
 
