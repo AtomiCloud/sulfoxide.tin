@@ -1,3 +1,16 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.3...v1.5.0) (2024-02-08)
+
+
+### 🚀 New Features
+
+* onyx cluster ([1d1ef47](https://github.com/AtomiCloud/sulfoxide.tin/commit/1d1ef47f9012fd1c7405c018f3884669036aca10))
+* topologySpreadConstraints ([c26de6d](https://github.com/AtomiCloud/sulfoxide.tin/commit/c26de6dfd203626229fbd327e0b088e9ac0ac808))
+
+
+### 🐛 Bug Fixes
+
+* releaser ([81cf162](https://github.com/AtomiCloud/sulfoxide.tin/commit/81cf162634ef1b79bd2897ea36cd5f056cd1777f))
+
 ## [1.4.3](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.2...v1.4.3) (2023-11-18)
 
 
