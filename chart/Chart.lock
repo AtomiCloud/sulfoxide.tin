@@ -1,9 +1,9 @@
 dependencies:
 - name: external-dns
   repository: https://kubernetes-sigs.github.io/external-dns/
-  version: 1.13.1
+  version: 1.14.5
 - name: sulfoxide-bromine
   repository: oci://ghcr.io/atomicloud/sulfoxide.bromine
-  version: 1.2.3
-digest: sha256:55269c8540258c75ef73340a7835ef1f3e1d0cb34885b3618e36769fb6735f26
-generated: "2023-10-21T00:48:16.964972+08:00"
+  version: 1.6.0
+digest: sha256:b0f8ff1994c0d34e21aceae7bd0977697c811380b599a15ef0b9840826f9a3de
+generated: "2024-08-11T15:18:20.84407+08:00"

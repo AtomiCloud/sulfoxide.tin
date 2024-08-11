@@ -32,14 +32,20 @@ securityContext: &securityContext
 
 # -- Create SecretStore via secret of secrets pattern
 sulfoxide-bromine:
+  serviceTree:
+    platform: *platform
+    service: *service
   annotations:
     argocd.argoproj.io/sync-wave: "-3"
   # -- Store name to create
-  storeName: doppler-tin
+  storeName: *service
   # -- Secret of Secrets reference
   rootSecret:
-    # -- DOPPLER Token Reference
-    ref: "SULFOXIDE_TIN"
+    name: *service
+
+    ref:
+      clientId: SULFOXIDE_TIN_CLIENT_ID
+      clientSecret: SULFOXIDE_TIN_CLIENT_SECRET
 
 # -- Secret Annotations (External Secrets) to control synchronization
 secretAnnotation:
