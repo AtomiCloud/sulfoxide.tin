@@ -75,12 +75,12 @@ token:
     refreshInterval: 1h
 
     # -- Remote Secret Reference name
-    remoteSecretName: MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN
+    remoteSecretName: CLOUDFLARE_EXTERNAL_DNS_TOKEN
 
     # Secret Store to reference
     secretStore:
       # -- Name of the Secret Store
-      name: doppler-tin
+      name: *service
 
       # -- Kind of the Secret Store: `ClusterSecretStore` or `SecretStore`
       kind: SecretStore

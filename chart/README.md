@@ -24,16 +24,16 @@ Helm chart to deploy External DNS to configure DNS records to DNS providers
 | sulfoxide-bromine.rootSecret | object | `{"name":"tin","ref":{"clientId":"SULFOXIDE_TIN_CLIENT_ID","clientSecret":"SULFOXIDE_TIN_CLIENT_SECRET"}}` | Secret of Secrets reference |
 | sulfoxide-bromine.storeName | string | `"tin"` | Store name to create |
 | tags | object | `{"atomi.cloud/layer":"1","atomi.cloud/module":"controller","atomi.cloud/platform":"sulfoxide","atomi.cloud/service":"tin"}` | Kubernetes labels and annotations, following Service Tree |
-| token | object | `{"external":{"enable":true,"policy":{"creation":"Owner","deletion":"Retain"},"refreshInterval":"1h","remoteSecretName":"MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN","secretStore":{"kind":"SecretStore","name":"doppler-tin"}},"internal":{"enable":false,"token":""},"secretName":"cloudflare-external-dns-token"}` | Cloudflare Tunnel Token |
-| token.external | object | `{"enable":true,"policy":{"creation":"Owner","deletion":"Retain"},"refreshInterval":"1h","remoteSecretName":"MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN","secretStore":{"kind":"SecretStore","name":"doppler-tin"}}` | Use external secret |
+| token | object | `{"external":{"enable":true,"policy":{"creation":"Owner","deletion":"Retain"},"refreshInterval":"1h","remoteSecretName":"CLOUDFLARE_EXTERNAL_DNS_TOKEN","secretStore":{"kind":"SecretStore","name":"tin"}},"internal":{"enable":false,"token":""},"secretName":"cloudflare-external-dns-token"}` | Cloudflare Tunnel Token |
+| token.external | object | `{"enable":true,"policy":{"creation":"Owner","deletion":"Retain"},"refreshInterval":"1h","remoteSecretName":"CLOUDFLARE_EXTERNAL_DNS_TOKEN","secretStore":{"kind":"SecretStore","name":"tin"}}` | Use external secret |
 | token.external.enable | bool | `true` | Enable the use of external secret |
 | token.external.policy | object | `{"creation":"Owner","deletion":"Retain"}` | Secret policy |
 | token.external.policy.creation | string | `"Owner"` | Creation policy |
 | token.external.policy.deletion | string | `"Retain"` | Deletion policy |
 | token.external.refreshInterval | string | `"1h"` | Refresh Rate |
-| token.external.remoteSecretName | string | `"MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN"` | Remote Secret Reference name |
+| token.external.remoteSecretName | string | `"CLOUDFLARE_EXTERNAL_DNS_TOKEN"` | Remote Secret Reference name |
 | token.external.secretStore.kind | string | `"SecretStore"` | Kind of the Secret Store: `ClusterSecretStore` or `SecretStore` |
-| token.external.secretStore.name | string | `"doppler-tin"` | Name of the Secret Store |
+| token.external.secretStore.name | string | `"tin"` | Name of the Secret Store |
 | token.internal | object | `{"enable":false,"token":""}` | Secret directly inlined in value files |
 | token.internal.enable | bool | `false` | Use hard coded secret |
 | token.internal.token | string | `""` | Hard coded Cloudflare token |
