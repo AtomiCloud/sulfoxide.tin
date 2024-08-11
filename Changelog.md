@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.6.0...v1.6.1) (2024-08-11)
+
+
+### 🐛 Bug Fixes
+
+* incorrect pointing to secret store ([772bd5d](https://github.com/AtomiCloud/sulfoxide.tin/commit/772bd5d18b8fed32e6e0b3efc953c06f6d3ef019))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.5.0...v1.6.0) (2024-08-11)
 
 
