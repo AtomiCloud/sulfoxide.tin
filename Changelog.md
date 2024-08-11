@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.5.0...v1.6.0) (2024-08-11)
+
+
+### 📦 Upstreams Changes
+
+* upgrade nix, helm upstream, GHA ([3736b20](https://github.com/AtomiCloud/sulfoxide.tin/commit/3736b20ad44cd0a5c3817c6db2a0cb79645cd539))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.4.3...v1.5.0) (2024-02-08)
 
 
