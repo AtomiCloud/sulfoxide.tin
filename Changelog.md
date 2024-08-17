@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.7.0...v1.7.1) (2024-08-17)
+
+
+### 🐛 Bug Fixes
+
+* missing landscape for sulfoxide-bromine ([62b3a38](https://github.com/AtomiCloud/sulfoxide.tin/commit/62b3a384484de96c531b311da2e5c00df733e771))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.6.1...v1.7.0) (2024-08-17)
 
 
