@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.6.1...v1.7.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* remove onyx ([02f941c](https://github.com/AtomiCloud/sulfoxide.tin/commit/02f941c138a18af199e4a15cc89328cc414db660))
+
 ## [1.6.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.6.0...v1.6.1) (2024-08-11)
 
 
