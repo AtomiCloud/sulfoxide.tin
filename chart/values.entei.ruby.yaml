@@ -13,7 +13,7 @@ token:
   external:
     enable: true
     refreshInterval: 1h
-    remoteSecretName: MANUAL_CLOUDFLARE_EXTERNAL_DNS_TOKEN
+    remoteSecretName: CLOUDFLARE_EXTERNAL_DNS_TOKEN
 
 external-dns:
   interval: 1m
