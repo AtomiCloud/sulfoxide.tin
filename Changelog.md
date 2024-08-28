@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.7.1...v1.8.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([0561431](https://github.com/AtomiCloud/sulfoxide.tin/commit/0561431f4b9cedbf449f3489f86334769913c134))
+
 ## [1.7.1](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.7.0...v1.7.1) (2024-08-17)
 
 
