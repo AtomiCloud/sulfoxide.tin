@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.8.0...v1.9.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** update to 28.0.0 ([0c8b30a](https://github.com/AtomiCloud/sulfoxide.tin/commit/0c8b30ab524881a599b7fde263b8f34f17e6368f))
+
 ## [1.8.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.7.1...v1.8.0) (2024-08-28)
 
 
