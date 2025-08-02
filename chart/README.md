@@ -9,7 +9,7 @@ Helm chart to deploy External DNS to configure DNS records to DNS providers
 | Repository | Name | Version |
 |------------|------|---------|
 | https://kubernetes-sigs.github.io/external-dns/ | external-dns | 1.14.5 |
-| oci://ghcr.io/atomicloud/sulfoxide.bromine | sulfoxide-bromine | 1.6.0 |
+| oci://ghcr.io/atomicloud/sulfoxide.bromine | sulfoxide-bromine | 1.8.0 |
 
 ## Values
 
