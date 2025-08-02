@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.9.0...v1.10.0) (2025-08-02)
+
+
+### 📦 Upstreams Changes
+
+* migrate to externalsecret v1 ([f749ef5](https://github.com/AtomiCloud/sulfoxide.tin/commit/f749ef589bc9c875c59b1a31a6423c1328930655))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.8.0...v1.9.0) (2024-10-02)
 
 
