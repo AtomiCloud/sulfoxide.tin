@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.10.0...v1.11.0) (2025-08-02)
+
+
+### 📦 Upstreams Changes
+
+* **bromine:** to v1.8.0 ([7a876c4](https://github.com/AtomiCloud/sulfoxide.tin/commit/7a876c4bddc9ff06886c11958cc5db5e28a30f86))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.tin/compare/v1.9.0...v1.10.0) (2025-08-02)
 
 
